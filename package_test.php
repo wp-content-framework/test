@@ -31,6 +31,13 @@ class Package_Test extends Package_Base {
 	/**
 	 * @return bool
 	 */
+	protected function is_valid_view() {
+		return true;
+	}
+
+	/**
+	 * @return bool
+	 */
 	protected function is_valid_translate() {
 		return true;
 	}
