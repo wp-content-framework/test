@@ -21,7 +21,7 @@ if ( ! defined( 'WP_CONTENT_FRAMEWORK' ) ) {
  */
 abstract class Base extends \WP_Framework_Test\Classes\Models\Test\Base implements \WP_Framework_Test\Interfaces\Test {
 
-	use \WP_Framework_Test\Traits\Test;
+	use \WP_Framework_Test\Traits\Test, \WP_Framework_Test\Traits\Package;
 
 	/** @var \WP_Framework */
 	protected static $test_app;
