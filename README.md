@@ -51,8 +51,9 @@ class Sample extends \WP_Framework\Classes\Tests\Base {
 
 - 管理画面から実行
 
-![test1](https://raw.githubusercontent.com/wp-content-framework/core/images/test1.png)
-![test2](https://raw.githubusercontent.com/wp-content-framework/core/images/test2.png)
+![test1](https://raw.githubusercontent.com/wp-content-framework/core/images/images/test1.png)
+
+![test2](https://raw.githubusercontent.com/wp-content-framework/core/images/images/test2.png)
 
 # Author
 
