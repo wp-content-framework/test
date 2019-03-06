@@ -19,8 +19,7 @@ $instance->add_style_view( 'admin/style/table' );
 ?>
 
 <?php if ( count( $tests ) > 0 ): ?>
-    <h3><?php $instance->h( 'Test count: ', true );
-		echo count( $tests ); ?></h3>
+    <h3><?php $instance->h( 'Test count: ', true );$instance->n( $tests ); ?></h3>
     <table class="widefat striped">
 		<?php foreach ( $tests as $test ): ?>
             <tr>
