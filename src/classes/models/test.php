@@ -70,7 +70,7 @@ class Test implements \WP_Framework_Core\Interfaces\Loader, \WP_Framework_Presen
 	 * @return array
 	 */
 	public function get_test_class_names() {
-		return $this->app->utility->array_map( $this->get_tests(), 'get_class_name' );
+		return $this->app->array->map( $this->get_tests(), 'get_class_name' );
 	}
 
 	/**
