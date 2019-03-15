@@ -42,8 +42,8 @@ class Test extends \WP_Framework_Admin\Classes\Controllers\Admin\Base {
 	 */
 	protected function post_action() {
 		$action = $this->app->input->post( 'action' );
-		if ( method_exists( $this, $action ) && is_callable( [ $this, $action ] ) ) {
-			$this->$action();
+		if ( $this->is_method_callable( $action ) ) {
+			call_user_func( [ $this, $action ] );
 		}
 	}
 
