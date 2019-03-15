@@ -2,7 +2,7 @@
 /**
  * WP_Framework_Test Classes Controller Test
  *
- * @version 0.0.9
+ * @version 0.0.11
  * @author Technote
  * @copyright Technote All Rights Reserved
  * @license http://www.opensource.org/licenses/gpl-2.0.php GNU General Public License, version 2
