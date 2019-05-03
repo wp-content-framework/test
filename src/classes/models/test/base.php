@@ -11,12 +11,14 @@
 
 namespace WP_Framework_Test\Classes\Models\Test;
 
+use PHPUnit\Framework\TestCase;
+
 if ( ! defined( 'WP_CONTENT_FRAMEWORK' ) ) {
 	exit;
 }
 
 if ( class_exists( '\PHPUnit\Framework\TestCase' ) ) {
-	class Base extends \PHPUnit\Framework\TestCase {
+	class Base extends TestCase {
 	}
 } else {
 	class Base {
