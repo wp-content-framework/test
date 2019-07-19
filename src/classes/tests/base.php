@@ -2,7 +2,6 @@
 /**
  * WP_Framework_Test Tests Base
  *
- * @version 0.0.14
  * @author Technote
  * @copyright Technote All Rights Reserved
  * @license http://www.opensource.org/licenses/gpl-2.0.php GNU General Public License, version 2
@@ -26,6 +25,7 @@ if ( ! defined( 'WP_CONTENT_FRAMEWORK' ) ) {
  * @package WP_Framework_Test\Classes\Tests
  */
 /** @noinspection PhpUndefinedClassInspection */
+
 abstract class Base extends \WP_Framework_Test\Classes\Models\Test\Base implements \WP_Framework_Test\Interfaces\Test {
 
 	use Test, Package;
@@ -57,6 +57,13 @@ abstract class Base extends \WP_Framework_Test\Classes\Models\Test\Base implemen
 	 * setup
 	 */
 	public function _setup() {
+		$this->setup_test();
+	}
+
+	/**
+	 * setup
+	 */
+	protected function setup_test() {
 
 	}
 }
