@@ -26,6 +26,7 @@ if ( ! defined( 'WP_CONTENT_FRAMEWORK' ) ) {
  * @package WP_Framework_Test\Classes\Tests
  */
 /** @noinspection PhpUndefinedClassInspection */
+
 abstract class Base extends \WP_Framework_Test\Classes\Models\Test\Base implements \WP_Framework_Test\Interfaces\Test {
 
 	use Test, Package;
@@ -57,6 +58,13 @@ abstract class Base extends \WP_Framework_Test\Classes\Models\Test\Base implemen
 	 * setup
 	 */
 	public function _setup() {
+		$this->setup_test();
+	}
+
+	/**
+	 * setup
+	 */
+	protected function setup_test() {
 
 	}
 }
