@@ -32,9 +32,9 @@ trait Test {
 	use Singleton, Hook;
 
 	/**
-	 * @var array $_objects
+	 * @var array $objects
 	 */
-	private $_objects = [];
+	private $objects = [];
 
 	/**
 	 * Test constructor.
@@ -52,18 +52,18 @@ trait Test {
 			$this->init( ...$args );
 		} elseif ( count( $args ) > 2 ) {
 			// \PHPUnit_Framework_TestCase
-			$reflectionClass = new ReflectionClass( '\PHPUnit_Framework_TestCase' );
-			if ( $arg1 !== null ) {
+			$reflection_class = new ReflectionClass( '\PHPUnit_Framework_TestCase' );
+			if ( ! is_null( $arg1 ) ) {
 				$this->setName( $arg1 );
 			}
-			$data = $reflectionClass->getProperty( 'data' );
+			$data = $reflection_class->getProperty( 'data' );
 			$data->setAccessible( true );
 			$data->setValue( $this, $arg2 );
 			$data->setAccessible( false );
-			$dataName = $reflectionClass->getProperty( 'dataName' );
-			$dataName->setAccessible( true );
-			$dataName->setValue( $this, $arg3 );
-			$dataName->setAccessible( false );
+			$data_name = $reflection_class->getProperty( 'dataName' );
+			$data_name->setAccessible( true );
+			$data_name->setValue( $this, $arg3 );
+			$data_name->setAccessible( false );
 		}
 	}
 
@@ -78,20 +78,20 @@ trait Test {
 	 * @param mixed $obj
 	 */
 	protected function dump( $obj ) {
-		$this->_objects[] = print_r( $obj, true );
+		$this->objects[] = print_r( $obj, true ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_print_r
 	}
 
 	/**
 	 * @return bool
 	 */
 	public function has_dump_objects() {
-		return ! empty( $this->_objects );
+		return ! empty( $this->objects );
 	}
 
 	/**
 	 * @return array
 	 */
 	public function get_dump_objects() {
-		return $this->_objects;
+		return $this->objects;
 	}
 }

@@ -30,9 +30,9 @@ class Test implements \WP_Framework_Core\Interfaces\Loader, \WP_Framework_Presen
 	use Loader, Presenter, Package;
 
 	/**
-	 * @var bool $_is_valid
+	 * @var bool $is_valid
 	 */
-	private $_is_valid = false;
+	private $is_valid = false;
 
 	/**
 	 * initialize
@@ -51,21 +51,21 @@ class Test implements \WP_Framework_Core\Interfaces\Loader, \WP_Framework_Presen
 			}
 		}
 
-		$this->_is_valid = true;
+		$this->is_valid = true;
 	}
 
 	/**
 	 * @return bool
 	 */
 	public function is_valid() {
-		return $this->_is_valid && count( $this->get_tests() ) > 0;
+		return $this->is_valid && count( $this->get_tests() ) > 0;
 	}
 
 	/**
 	 * @return array
 	 */
 	private function get_tests() {
-		if ( ! $this->_is_valid ) {
+		if ( ! $this->is_valid ) {
 			return [];
 		}
 
@@ -106,13 +106,13 @@ class Test implements \WP_Framework_Core\Interfaces\Loader, \WP_Framework_Presen
 	 * @return array
 	 */
 	public function do_tests() {
-		if ( ! $this->_is_valid ) {
+		if ( ! $this->is_valid ) {
 			return [];
 		}
 
 		Base::set_app( $this->app );
 		$results = [];
-		foreach ( $this->get_tests() as $slug => $class ) {
+		foreach ( $this->get_tests() as $class ) {
 			$results[] = $this->do_test( $class );
 		}
 

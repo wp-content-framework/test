@@ -43,20 +43,20 @@ abstract class Base extends \WP_Framework_Test\Classes\Models\Test\Base implemen
 	/**
 	 * @throws ReflectionException
 	 */
-	public final function setUp() {
+	final public function setUp() {
 		$class = get_called_class();
 		if ( false === $class ) {
 			$class = get_class();
 		}
 		$reflection = new ReflectionClass( $class );
 		$this->init( static::$test_app, $reflection );
-		$this->_setup();
+		$this->wrap_setup();
 	}
 
 	/**
 	 * setup
 	 */
-	public function _setup() {
+	public function wrap_setup() {
 		$this->setup_test();
 	}
 
@@ -64,6 +64,5 @@ abstract class Base extends \WP_Framework_Test\Classes\Models\Test\Base implemen
 	 * setup
 	 */
 	protected function setup_test() {
-
 	}
 }

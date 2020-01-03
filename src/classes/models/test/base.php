@@ -20,6 +20,7 @@ if ( class_exists( '\PHPUnit\Framework\TestCase' ) ) {
 	class Base extends TestCase {
 	}
 } else {
+	// phpcs:ignore Generic.Classes.DuplicateClassName.Found,Generic.Files.OneObjectStructurePerFile.MultipleFound
 	class Base {
 	}
 }

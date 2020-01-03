@@ -29,7 +29,7 @@ class Test extends Base {
 	 * @return int
 	 */
 	public function get_load_priority() {
-		return $this->app->test->is_valid() ? $this->apply_filters( 'test_page_priority', $this->app->utility->defined( 'WP_DEBUG' ) ? 900 : - 1 ) : - 1;
+		return $this->app->test->is_valid() ? $this->apply_filters( 'test_page_priority', $this->app->utility->defined( 'WP_DEBUG' ) ? 900 : -1 ) : -1;
 	}
 
 	/**
@@ -60,8 +60,9 @@ class Test extends Base {
 
 	/**
 	 * do test
+	 * @noinspection PhpUnusedPrivateMethodInspection
+	 * @SuppressWarnings(PHPMD.UnusedPrivateMethod)
 	 */
-	/** @noinspection PhpUnusedPrivateMethodInspection */
 	private function do_test() {
 		foreach ( $this->app->test->do_tests() as list( $success, $result ) ) {
 			$this->app->add_message( $result, 'test', ! $success, false, [

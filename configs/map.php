@@ -13,7 +13,5 @@ if ( ! defined( 'WP_CONTENT_FRAMEWORK' ) ) {
 }
 
 return [
-
 	'test' => '\WP_Framework_Test\Classes\Models\Test',
-
 ];
