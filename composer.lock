@@ -169,16 +169,16 @@
         },
         {
             "name": "wp-content-framework/controller",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/controller.git",
-                "reference": "bd1de7674719d6b211279310938e489199596b92"
+                "reference": "100633b361a003765f071beaa3e69ba7b771b62c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/bd1de7674719d6b211279310938e489199596b92",
-                "reference": "bd1de7674719d6b211279310938e489199596b92",
+                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/100633b361a003765f071beaa3e69ba7b771b62c",
+                "reference": "100633b361a003765f071beaa3e69ba7b771b62c",
                 "shasum": ""
             },
             "require": {
@@ -216,20 +216,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-02T15:24:13+00:00"
+            "time": "2020-05-09T11:46:13+00:00"
         },
         {
             "name": "wp-content-framework/presenter",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/presenter.git",
-                "reference": "ce75e1e8f21344ccf0c42519e20f17288b159d68"
+                "reference": "e28cf3126cb21a60033c998d1c4786a31a115f9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/ce75e1e8f21344ccf0c42519e20f17288b159d68",
-                "reference": "ce75e1e8f21344ccf0c42519e20f17288b159d68",
+                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/e28cf3126cb21a60033c998d1c4786a31a115f9c",
+                "reference": "e28cf3126cb21a60033c998d1c4786a31a115f9c",
                 "shasum": ""
             },
             "require": {
@@ -267,20 +267,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-02T08:09:00+00:00"
+            "time": "2020-05-04T18:34:50+00:00"
         },
         {
             "name": "wp-content-framework/view",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/view.git",
-                "reference": "777cb29cf6e98ee10aed8fe44cb598bf844c1a14"
+                "reference": "d14ea69e366ffa88a75e1b0fba90028b746f3818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/777cb29cf6e98ee10aed8fe44cb598bf844c1a14",
-                "reference": "777cb29cf6e98ee10aed8fe44cb598bf844c1a14",
+                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/d14ea69e366ffa88a75e1b0fba90028b746f3818",
+                "reference": "d14ea69e366ffa88a75e1b0fba90028b746f3818",
                 "shasum": ""
             },
             "require": {
@@ -318,7 +318,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-02T07:56:09+00:00"
+            "time": "2020-05-08T15:25:56+00:00"
         }
     ],
     "packages-dev": [
@@ -1093,16 +1093,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1aab00e39cebaef4d8652497f46c15c1b7e45294",
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294",
                 "shasum": ""
             },
             "require": {
@@ -1114,7 +1114,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -1161,7 +1161,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "symfony/service-contracts",
