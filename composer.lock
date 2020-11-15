@@ -125,16 +125,16 @@
         },
         {
             "name": "wp-content-framework/admin",
-            "version": "v1.0.31",
+            "version": "v1.0.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/admin.git",
-                "reference": "9fd9f1bb698611e8ae6a8b0eaebcad1c853432b6"
+                "reference": "0d6082ee34ba497c8f7a96e0705179f15c81998b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/9fd9f1bb698611e8ae6a8b0eaebcad1c853432b6",
-                "reference": "9fd9f1bb698611e8ae6a8b0eaebcad1c853432b6",
+                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/0d6082ee34ba497c8f7a96e0705179f15c81998b",
+                "reference": "0d6082ee34ba497c8f7a96e0705179f15c81998b",
                 "shasum": ""
             },
             "require": {
@@ -169,7 +169,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/admin/issues",
-                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.31"
+                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.32"
             },
             "funding": [
                 {
@@ -177,20 +177,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-11-04T11:34:37+00:00"
+            "time": "2020-11-11T04:47:37+00:00"
         },
         {
             "name": "wp-content-framework/controller",
-            "version": "v1.0.30",
+            "version": "v1.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/controller.git",
-                "reference": "18e56ae150a523ccea233895730719e57f18203f"
+                "reference": "e4521dd0dbb602fd4aa2842b0b6748b4fb9ac067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/18e56ae150a523ccea233895730719e57f18203f",
-                "reference": "18e56ae150a523ccea233895730719e57f18203f",
+                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/e4521dd0dbb602fd4aa2842b0b6748b4fb9ac067",
+                "reference": "e4521dd0dbb602fd4aa2842b0b6748b4fb9ac067",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/controller/issues",
-                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.30"
+                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.31"
             },
             "funding": [
                 {
@@ -232,7 +232,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-11-07T17:08:53+00:00"
+            "time": "2020-11-14T14:59:53+00:00"
         },
         {
             "name": "wp-content-framework/presenter",
@@ -291,16 +291,16 @@
         },
         {
             "name": "wp-content-framework/view",
-            "version": "v1.0.30",
+            "version": "v1.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/view.git",
-                "reference": "580e1da911aa8f52f6b12ddf8de01d16a4685542"
+                "reference": "87c65125802cb8959a86c4b4d67dca8a361522c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/580e1da911aa8f52f6b12ddf8de01d16a4685542",
-                "reference": "580e1da911aa8f52f6b12ddf8de01d16a4685542",
+                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/87c65125802cb8959a86c4b4d67dca8a361522c8",
+                "reference": "87c65125802cb8959a86c4b4d67dca8a361522c8",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/view/issues",
-                "source": "https://github.com/wp-content-framework/view/tree/v1.0.30"
+                "source": "https://github.com/wp-content-framework/view/tree/v1.0.31"
             },
             "funding": [
                 {
@@ -342,22 +342,22 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-11-06T12:58:19+00:00"
+            "time": "2020-11-14T06:06:48+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "composer/xdebug-handler",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "6e076a124f7ee146f2487554a94b6a19a74887ba"
+                "reference": "f28d44c286812c714741478d968104c5e604a1d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/6e076a124f7ee146f2487554a94b6a19a74887ba",
-                "reference": "6e076a124f7ee146f2487554a94b6a19a74887ba",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/f28d44c286812c714741478d968104c5e604a1d4",
+                "reference": "f28d44c286812c714741478d968104c5e604a1d4",
                 "shasum": ""
             },
             "require": {
@@ -391,7 +391,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/xdebug-handler/issues",
-                "source": "https://github.com/composer/xdebug-handler/tree/1.4.4"
+                "source": "https://github.com/composer/xdebug-handler/tree/1.4.5"
             },
             "funding": [
                 {
@@ -407,7 +407,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:39:10+00:00"
+            "time": "2020-11-13T08:04:11+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
