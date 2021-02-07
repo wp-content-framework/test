@@ -139,16 +139,16 @@
         },
         {
             "name": "wp-content-framework/admin",
-            "version": "v1.0.42",
+            "version": "v1.0.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/admin.git",
-                "reference": "0a20eefaab05297bd5862d861503f0cfd462fa04"
+                "reference": "1ebc6101c9d749080993ae229a5fb22988902960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/0a20eefaab05297bd5862d861503f0cfd462fa04",
-                "reference": "0a20eefaab05297bd5862d861503f0cfd462fa04",
+                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/1ebc6101c9d749080993ae229a5fb22988902960",
+                "reference": "1ebc6101c9d749080993ae229a5fb22988902960",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/admin/issues",
-                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.42"
+                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.43"
             },
             "funding": [
                 {
@@ -191,20 +191,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-01-20T06:35:58+00:00"
+            "time": "2021-02-03T03:03:29+00:00"
         },
         {
             "name": "wp-content-framework/controller",
-            "version": "v1.0.39",
+            "version": "v1.0.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/controller.git",
-                "reference": "36cc3cb9bc97a1ec66404e263738516c7321ddcc"
+                "reference": "f9d333466beef83473476cbb331b948180263b5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/36cc3cb9bc97a1ec66404e263738516c7321ddcc",
-                "reference": "36cc3cb9bc97a1ec66404e263738516c7321ddcc",
+                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/f9d333466beef83473476cbb331b948180263b5f",
+                "reference": "f9d333466beef83473476cbb331b948180263b5f",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/controller/issues",
-                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.39"
+                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.40"
             },
             "funding": [
                 {
@@ -246,20 +246,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-01-30T12:53:52+00:00"
+            "time": "2021-02-06T12:53:01+00:00"
         },
         {
             "name": "wp-content-framework/presenter",
-            "version": "v1.0.30",
+            "version": "v1.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/presenter.git",
-                "reference": "7a1c2915cb6c72e67b98ab9b97640f8d5d2ad573"
+                "reference": "02c16374fa24190ee733590a47e6df7f01bdc570"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/7a1c2915cb6c72e67b98ab9b97640f8d5d2ad573",
-                "reference": "7a1c2915cb6c72e67b98ab9b97640f8d5d2ad573",
+                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/02c16374fa24190ee733590a47e6df7f01bdc570",
+                "reference": "02c16374fa24190ee733590a47e6df7f01bdc570",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/presenter/issues",
-                "source": "https://github.com/wp-content-framework/presenter/tree/v1.0.30"
+                "source": "https://github.com/wp-content-framework/presenter/tree/v1.0.31"
             },
             "funding": [
                 {
@@ -301,20 +301,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-01-11T08:35:12+00:00"
+            "time": "2021-02-01T12:50:06+00:00"
         },
         {
             "name": "wp-content-framework/view",
-            "version": "v1.0.40",
+            "version": "v1.0.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/view.git",
-                "reference": "21c6bce58b344a473a475328d7fbbaa3599016c3"
+                "reference": "bb70fdab17d905768b79ea0598d72a2b234ab52b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/21c6bce58b344a473a475328d7fbbaa3599016c3",
-                "reference": "21c6bce58b344a473a475328d7fbbaa3599016c3",
+                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/bb70fdab17d905768b79ea0598d72a2b234ab52b",
+                "reference": "bb70fdab17d905768b79ea0598d72a2b234ab52b",
                 "shasum": ""
             },
             "require": {
@@ -348,7 +348,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/view/issues",
-                "source": "https://github.com/wp-content-framework/view/tree/v1.0.40"
+                "source": "https://github.com/wp-content-framework/view/tree/v1.0.41"
             },
             "funding": [
                 {
@@ -356,7 +356,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-01-29T14:11:20+00:00"
+            "time": "2021-02-05T13:17:41+00:00"
         }
     ],
     "packages-dev": [
@@ -966,7 +966,7 @@
         },
         {
             "name": "symfony/config",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
@@ -1024,7 +1024,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v5.2.2"
+                "source": "https://github.com/symfony/config/tree/v5.2.3"
             },
             "funding": [
                 {
@@ -1044,7 +1044,7 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
@@ -1111,7 +1111,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.2.2"
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.2.3"
             },
             "funding": [
                 {
@@ -1198,7 +1198,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -1240,7 +1240,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.2.2"
+                "source": "https://github.com/symfony/filesystem/tree/v5.2.3"
             },
             "funding": [
                 {
