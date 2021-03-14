@@ -139,16 +139,16 @@
         },
         {
             "name": "wp-content-framework/admin",
-            "version": "v1.0.47",
+            "version": "v1.0.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/admin.git",
-                "reference": "7d11e48563f0b322b9a72c96733031420db0f0e7"
+                "reference": "b48e305cf36436f73d08ed93cb58660b80da82e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/7d11e48563f0b322b9a72c96733031420db0f0e7",
-                "reference": "7d11e48563f0b322b9a72c96733031420db0f0e7",
+                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/b48e305cf36436f73d08ed93cb58660b80da82e6",
+                "reference": "b48e305cf36436f73d08ed93cb58660b80da82e6",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/admin/issues",
-                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.47"
+                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.48"
             },
             "funding": [
                 {
@@ -191,20 +191,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-03-03T14:44:14+00:00"
+            "time": "2021-03-10T02:37:05+00:00"
         },
         {
             "name": "wp-content-framework/controller",
-            "version": "v1.0.43",
+            "version": "v1.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/controller.git",
-                "reference": "99cdf8d3ae9658260100612b47f0ee0750905d98"
+                "reference": "770106fa8d13631551c7d76101a5e02ec8176591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/99cdf8d3ae9658260100612b47f0ee0750905d98",
-                "reference": "99cdf8d3ae9658260100612b47f0ee0750905d98",
+                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/770106fa8d13631551c7d76101a5e02ec8176591",
+                "reference": "770106fa8d13631551c7d76101a5e02ec8176591",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/controller/issues",
-                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.43"
+                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.45"
             },
             "funding": [
                 {
@@ -246,20 +246,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-02-27T14:24:16+00:00"
+            "time": "2021-03-14T08:57:16+00:00"
         },
         {
             "name": "wp-content-framework/presenter",
-            "version": "v1.0.34",
+            "version": "v1.0.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/presenter.git",
-                "reference": "1be8353cf66ddddabf239a2b0c64ea732932294f"
+                "reference": "a9905a9535258a0027f0c067f2d47b6ebe4111c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/1be8353cf66ddddabf239a2b0c64ea732932294f",
-                "reference": "1be8353cf66ddddabf239a2b0c64ea732932294f",
+                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/a9905a9535258a0027f0c067f2d47b6ebe4111c8",
+                "reference": "a9905a9535258a0027f0c067f2d47b6ebe4111c8",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/presenter/issues",
-                "source": "https://github.com/wp-content-framework/presenter/tree/v1.0.34"
+                "source": "https://github.com/wp-content-framework/presenter/tree/v1.0.35"
             },
             "funding": [
                 {
@@ -301,20 +301,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-02-24T13:32:13+00:00"
+            "time": "2021-03-08T06:39:57+00:00"
         },
         {
             "name": "wp-content-framework/view",
-            "version": "v1.0.44",
+            "version": "v1.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/view.git",
-                "reference": "26c3806177bcc9711ab73201cbc2b4ae03dd63d2"
+                "reference": "695e26777b5908a0054d06c4ba2b5bbb98b499fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/26c3806177bcc9711ab73201cbc2b4ae03dd63d2",
-                "reference": "26c3806177bcc9711ab73201cbc2b4ae03dd63d2",
+                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/695e26777b5908a0054d06c4ba2b5bbb98b499fc",
+                "reference": "695e26777b5908a0054d06c4ba2b5bbb98b499fc",
                 "shasum": ""
             },
             "require": {
@@ -348,7 +348,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/view/issues",
-                "source": "https://github.com/wp-content-framework/view/tree/v1.0.44"
+                "source": "https://github.com/wp-content-framework/view/tree/v1.0.45"
             },
             "funding": [
                 {
@@ -356,7 +356,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-03-06T09:10:52+00:00"
+            "time": "2021-03-12T13:35:37+00:00"
         }
     ],
     "packages-dev": [
@@ -495,16 +495,16 @@
         },
         {
             "name": "pdepend/pdepend",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdepend/pdepend.git",
-                "reference": "c64472f8e76ca858c79ad9a4cf1e2734b3f8cc38"
+                "reference": "b6452ce4b570f540be3a4f46276dd8d8f4fa5ead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pdepend/pdepend/zipball/c64472f8e76ca858c79ad9a4cf1e2734b3f8cc38",
-                "reference": "c64472f8e76ca858c79ad9a4cf1e2734b3f8cc38",
+                "url": "https://api.github.com/repos/pdepend/pdepend/zipball/b6452ce4b570f540be3a4f46276dd8d8f4fa5ead",
+                "reference": "b6452ce4b570f540be3a4f46276dd8d8f4fa5ead",
                 "shasum": ""
             },
             "require": {
@@ -514,9 +514,9 @@
                 "symfony/filesystem": "^2.3.0|^3|^4|^5"
             },
             "require-dev": {
-                "easy-doc/easy-doc": "0.0.0 || ^1.2.3",
+                "easy-doc/easy-doc": "0.0.0|^1.2.3",
                 "gregwar/rst": "^1.0",
-                "phpunit/phpunit": "^4.8.35|^5.7",
+                "phpunit/phpunit": "^4.8.36|^5.7.27",
                 "squizlabs/php_codesniffer": "^2.0.0"
             },
             "bin": [
@@ -540,7 +540,7 @@
             "description": "Official version of pdepend to be handled with Composer",
             "support": {
                 "issues": "https://github.com/pdepend/pdepend/issues",
-                "source": "https://github.com/pdepend/pdepend/tree/master"
+                "source": "https://github.com/pdepend/pdepend/tree/2.9.0"
             },
             "funding": [
                 {
@@ -548,7 +548,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-20T10:53:13+00:00"
+            "time": "2021-03-11T09:20:40+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
@@ -1039,16 +1039,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.2.4",
+            "version": "v5.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "f7d89110c55d88620dc811f342f94393b8a045d4"
+                "reference": "be0c7926f5729b15e4e79fd2bf917cac584b1970"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/f7d89110c55d88620dc811f342f94393b8a045d4",
-                "reference": "f7d89110c55d88620dc811f342f94393b8a045d4",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/be0c7926f5729b15e4e79fd2bf917cac584b1970",
+                "reference": "be0c7926f5729b15e4e79fd2bf917cac584b1970",
                 "shasum": ""
             },
             "require": {
@@ -1106,7 +1106,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.2.4"
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.2.5"
             },
             "funding": [
                 {
@@ -1122,7 +1122,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-04T15:41:09+00:00"
+            "time": "2021-03-05T20:13:41+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
