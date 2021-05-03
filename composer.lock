@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ad0db04a6bba07a4e06f6d674e35eed",
+    "content-hash": "ce018190010a98f735f53b042d563b29",
     "packages": [
         {
             "name": "matthiasmullie/minify",
@@ -139,16 +139,16 @@
         },
         {
             "name": "wp-content-framework/admin",
-            "version": "v1.0.53",
+            "version": "v1.0.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/admin.git",
-                "reference": "0b62cc9bcbb2430dd9e499e47f437d56135cbbd1"
+                "reference": "1a61aae58cf0a2e0229956c03a038ba9876da36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/0b62cc9bcbb2430dd9e499e47f437d56135cbbd1",
-                "reference": "0b62cc9bcbb2430dd9e499e47f437d56135cbbd1",
+                "url": "https://api.github.com/repos/wp-content-framework/admin/zipball/1a61aae58cf0a2e0229956c03a038ba9876da36a",
+                "reference": "1a61aae58cf0a2e0229956c03a038ba9876da36a",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
                 "phpcompatibility/phpcompatibility-wp": "^2.1",
-                "phpmd/phpmd": "^2.9",
+                "phpmd/phpmd": "^2.10",
                 "squizlabs/php_codesniffer": "^3.6",
                 "wp-coding-standards/wpcs": "^2.3"
             },
@@ -183,7 +183,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/admin/issues",
-                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.53"
+                "source": "https://github.com/wp-content-framework/admin/tree/v1.0.54"
             },
             "funding": [
                 {
@@ -191,20 +191,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-04-21T01:33:10+00:00"
+            "time": "2021-04-28T17:23:40+00:00"
         },
         {
             "name": "wp-content-framework/controller",
-            "version": "v1.0.51",
+            "version": "v1.0.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/controller.git",
-                "reference": "e87e6c75e74d348c9807c27dafa11bee9830d873"
+                "reference": "5d27b24bdd841c4859ab03a4d85372417d3fad85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/e87e6c75e74d348c9807c27dafa11bee9830d873",
-                "reference": "e87e6c75e74d348c9807c27dafa11bee9830d873",
+                "url": "https://api.github.com/repos/wp-content-framework/controller/zipball/5d27b24bdd841c4859ab03a4d85372417d3fad85",
+                "reference": "5d27b24bdd841c4859ab03a4d85372417d3fad85",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +214,7 @@
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
                 "phpcompatibility/phpcompatibility-wp": "^2.1",
-                "phpmd/phpmd": "^2.9",
+                "phpmd/phpmd": "^2.10",
                 "squizlabs/php_codesniffer": "^3.6",
                 "wp-coding-standards/wpcs": "^2.3"
             },
@@ -238,7 +238,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/controller/issues",
-                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.51"
+                "source": "https://github.com/wp-content-framework/controller/tree/v1.0.52"
             },
             "funding": [
                 {
@@ -246,20 +246,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-04-24T13:03:23+00:00"
+            "time": "2021-05-01T13:13:30+00:00"
         },
         {
             "name": "wp-content-framework/presenter",
-            "version": "v1.0.40",
+            "version": "v1.0.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/presenter.git",
-                "reference": "f22e1f2338e54413346ea8ec4d09560737725c1f"
+                "reference": "07ba9d8b5cf8b38ca9f0428c438ac34f8f17184e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/f22e1f2338e54413346ea8ec4d09560737725c1f",
-                "reference": "f22e1f2338e54413346ea8ec4d09560737725c1f",
+                "url": "https://api.github.com/repos/wp-content-framework/presenter/zipball/07ba9d8b5cf8b38ca9f0428c438ac34f8f17184e",
+                "reference": "07ba9d8b5cf8b38ca9f0428c438ac34f8f17184e",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/presenter/issues",
-                "source": "https://github.com/wp-content-framework/presenter/tree/v1.0.40"
+                "source": "https://github.com/wp-content-framework/presenter/tree/v1.0.41"
             },
             "funding": [
                 {
@@ -301,20 +301,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-04-19T08:06:48+00:00"
+            "time": "2021-04-26T04:37:19+00:00"
         },
         {
             "name": "wp-content-framework/view",
-            "version": "v1.0.51",
+            "version": "v1.0.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-content-framework/view.git",
-                "reference": "01d73b54e4858b8e2a05d3534894c7112465e062"
+                "reference": "e664e01f69d3d4b13e39947bd171d5efe3d0484a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/01d73b54e4858b8e2a05d3534894c7112465e062",
-                "reference": "01d73b54e4858b8e2a05d3534894c7112465e062",
+                "url": "https://api.github.com/repos/wp-content-framework/view/zipball/e664e01f69d3d4b13e39947bd171d5efe3d0484a",
+                "reference": "e664e01f69d3d4b13e39947bd171d5efe3d0484a",
                 "shasum": ""
             },
             "require": {
@@ -324,7 +324,7 @@
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
                 "phpcompatibility/phpcompatibility-wp": "^2.1",
-                "phpmd/phpmd": "^2.9",
+                "phpmd/phpmd": "^2.10",
                 "squizlabs/php_codesniffer": "^3.6",
                 "wp-coding-standards/wpcs": "^2.3"
             },
@@ -348,7 +348,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-content-framework/view/issues",
-                "source": "https://github.com/wp-content-framework/view/tree/v1.0.51"
+                "source": "https://github.com/wp-content-framework/view/tree/v1.0.52"
             },
             "funding": [
                 {
@@ -356,7 +356,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-04-24T02:39:16+00:00"
+            "time": "2021-04-30T14:53:13+00:00"
         }
     ],
     "packages-dev": [
@@ -725,22 +725,22 @@
         },
         {
             "name": "phpmd/phpmd",
-            "version": "2.9.1",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmd/phpmd.git",
-                "reference": "ce10831d4ddc2686c1348a98069771dd314534a8"
+                "reference": "58ef9e746a1ab50ad3360d5d301e1229ed2612cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpmd/phpmd/zipball/ce10831d4ddc2686c1348a98069771dd314534a8",
-                "reference": "ce10831d4ddc2686c1348a98069771dd314534a8",
+                "url": "https://api.github.com/repos/phpmd/phpmd/zipball/58ef9e746a1ab50ad3360d5d301e1229ed2612cb",
+                "reference": "58ef9e746a1ab50ad3360d5d301e1229ed2612cb",
                 "shasum": ""
             },
             "require": {
                 "composer/xdebug-handler": "^1.0",
                 "ext-xml": "*",
-                "pdepend/pdepend": "^2.7.1",
+                "pdepend/pdepend": "^2.9.1",
                 "php": ">=5.3.9"
             },
             "require-dev": {
@@ -748,7 +748,7 @@
                 "ext-json": "*",
                 "ext-simplexml": "*",
                 "gregwar/rst": "^1.0",
-                "mikey179/vfsstream": "^1.6.4",
+                "mikey179/vfsstream": "^1.6.8",
                 "phpunit/phpunit": "^4.8.36 || ^5.7.27",
                 "squizlabs/php_codesniffer": "^2.0"
             },
@@ -796,7 +796,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/phpmd",
                 "issues": "https://github.com/phpmd/phpmd/issues",
-                "source": "https://github.com/phpmd/phpmd/tree/2.9.1"
+                "source": "https://github.com/phpmd/phpmd/tree/2.10.0"
             },
             "funding": [
                 {
@@ -804,7 +804,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-23T22:06:32+00:00"
+            "time": "2021-04-26T18:44:44+00:00"
         },
         {
             "name": "psr/container",
@@ -962,16 +962,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v5.2.4",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "212d54675bf203ff8aef7d8cee8eecfb72f4a263"
+                "reference": "3817662ada105c8c4d1afdb4ec003003efd1d8d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/212d54675bf203ff8aef7d8cee8eecfb72f4a263",
-                "reference": "212d54675bf203ff8aef7d8cee8eecfb72f4a263",
+                "url": "https://api.github.com/repos/symfony/config/zipball/3817662ada105c8c4d1afdb4ec003003efd1d8d8",
+                "reference": "3817662ada105c8c4d1afdb4ec003003efd1d8d8",
                 "shasum": ""
             },
             "require": {
@@ -1020,7 +1020,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v5.2.4"
+                "source": "https://github.com/symfony/config/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -1036,20 +1036,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-23T23:58:19+00:00"
+            "time": "2021-04-07T16:07:52+00:00"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "1e66194bed2a69fa395d26bf1067e5e34483afac"
+                "reference": "6ca378b99e3c9ba6127eb43b68389fb2b7348577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/1e66194bed2a69fa395d26bf1067e5e34483afac",
-                "reference": "1e66194bed2a69fa395d26bf1067e5e34483afac",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/6ca378b99e3c9ba6127eb43b68389fb2b7348577",
+                "reference": "6ca378b99e3c9ba6127eb43b68389fb2b7348577",
                 "shasum": ""
             },
             "require": {
@@ -1107,7 +1107,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.2.6"
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -1123,7 +1123,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-22T11:10:24+00:00"
+            "time": "2021-04-24T14:32:26+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1194,16 +1194,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "8c86a82f51658188119e62cff0a050a12d09836f"
+                "reference": "056e92acc21d977c37e6ea8e97374b2a6c8551b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8c86a82f51658188119e62cff0a050a12d09836f",
-                "reference": "8c86a82f51658188119e62cff0a050a12d09836f",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/056e92acc21d977c37e6ea8e97374b2a6c8551b0",
+                "reference": "056e92acc21d977c37e6ea8e97374b2a6c8551b0",
                 "shasum": ""
             },
             "require": {
@@ -1236,7 +1236,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.2.6"
+                "source": "https://github.com/symfony/filesystem/tree/v5.2.7"
             },
             "funding": [
                 {
@@ -1252,7 +1252,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-28T14:30:26+00:00"
+            "time": "2021-04-01T10:42:13+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
